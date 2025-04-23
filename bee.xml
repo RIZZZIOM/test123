@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Wed Apr 23 02:59:47 2025 as: /usr/lib/nmap/nmap -sV -sC -oX bee.xml 192.168.1.18 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sV -sC -oX bee.xml 192.168.1.18" start="1745391587" startstr="Wed Apr 23 02:59:47 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1000" services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3006,3011,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5985-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.18" addrtype="ipv4"/>
+<address addr="00:0C:29:2D:54:48" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1745391589" endtime="1745391657"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.18" addrtype="ipv4"/>
+<address addr="00:0C:29:2D:54:48" addrtype="mac" vendor="VMware"/>
+<hostnames>
+<hostname name="bee-box" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="983">
+<extrareasons reason="reset" count="983" proto="tcp" ports="1,3-4,6-7,9,13,17,19-20,23-24,26,30,32-33,37,42-43,49,53,70,79,81-85,88-90,99-100,106,109-111,113,119,125,135,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,444,458,464-465,481,497,500,515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,667-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3006,3011,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900,5902-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5985-5989,5998-6000,6002-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8081-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ftp" product="ProFTPD" version="1.3.1" ostype="Unix" method="probed" conf="10"><cpe>cpe:/a:proftpd:proftpd:1.3.1</cpe></service><script id="ftp-anon" output="Anonymous FTP login allowed (FTP code 230)&#xa;-rw-rw-r-&#45;   1 root     www-data   543803 Nov  2  2014 Iron_Man.pdf&#xa;-rw-rw-r-&#45;   1 root     www-data   462949 Nov  2  2014 Terminator_Salvation.pdf&#xa;-rw-rw-r-&#45;   1 root     www-data   544600 Nov  2  2014 The_Amazing_Spider-Man.pdf&#xa;-rw-rw-r-&#45;   1 root     www-data   526187 Nov  2  2014 The_Cabin_in_the_Woods.pdf&#xa;-rw-rw-r-&#45;   1 root     www-data   756522 Nov  2  2014 The_Dark_Knight_Rises.pdf&#xa;-rw-rw-r-&#45;   1 root     www-data   618117 Nov  2  2014 The_Incredible_Hulk.pdf&#xa;-rw-rw-r-&#45;   1 root     www-data  5010042 Nov  2  2014 bWAPP_intro.pdf"/></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" product="OpenSSH" version="4.7p1 Debian 8ubuntu1" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:4.7p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 45:a4:66:ec:3a:ba:97:f8:3e:1a:ba:1c:24:68:22:e8 (DSA)&#xa;  2048 63:e7:c5:d1:8d:8a:94:02:36:6a:d7:d2:75:e9:8b:ce (RSA)"><table>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAP4QSUfpcARsOR58DHmfN1BXcQ432mH5p+9cvicr3XKtbvkztetpNJ+iTox2K9EGbIP1eCBNLytWoFsuAX0c6QCGKtk/WxnuMSZERcmiuuAKAnOPXyZ1uCmEHqoALJs7ajk1M+9gQkoECh3HeXY4pgzjAu4G/SMYwNqIsvwgw259AAAAFQDe3e8OsQ8mzHYlbLKUf/NyIbYJYQAAAIBTA+kZMKJXM36LDGvoRDnvVpOp3bhK7OufxozhfZqcAw9BhOvh89s3oBr1l7yWs1nKOOX4vVqFBcimiwuKYzuVdgeM2t1fNU68GJB3Zihu2g5SOKbtW5Pk9xTIch3Q3+1d6pWNlUchjh7FOSwf84UjiITTk9BEeyajU+9aK7IrTAAAAIEAmbCuEx/HipseGGdYEgMb1cHiA6d6TGt7CuE4VBIWQRckIAmIb605LPigXc8Gco5poDvJyVXXvvfZBwbc0dyOAhCER9DaXhtcJuExKvLRUXJeoYOz63qRm5TuGGMY2JfDcy2mBJhASaTJsZGA2eCfQPKA/8vtVKLWWy9pDouWE5o=</elem>
+<elem key="fingerprint">45a466ec3aba97f83e1aba1c246822e8</elem>
+<elem key="bits">1024</elem>
+<elem key="type">ssh-dss</elem>
+</table>
+<table>
+<elem key="key">AAAAB3NzaC1yc2EAAAABIwAAAQEA4MzckFt0wKmYH+q3RkHCKrDFMXTFdaqEaY9dHcmYQk+64VIY4n6wei22I706vp2hD67jv2Y19Jxo9bihdzH4Vppd0RffXwRm2IVVSCVskh1Dlxc7mwbIC4ozY8GeP05esapOhLpmlqutiMbC+chul2VeMWrCQ8HjhovLXnE58JDhYbVlRmJXy4Y6XNBRxGuhQE6kd+RzO8A9Dls4I5oxJhG+1uFkXyFU41MU9Eerlhlwv8A0i07hfcn+vmtiseoMlg3mA+HRb19zJ5M31PYeS91fprSag48k6akyD8JyLRihL5J5Gul1Tvg06s1Oj1tRNQqL43swz/ptMDMCbRlphQ==</elem>
+<elem key="fingerprint">63e7c5d18d8a9402366ad7d275e98bce</elem>
+<elem key="bits">2048</elem>
+<elem key="type">ssh-rsa</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="smtp" product="Postfix smtpd" hostname=" bee-box" method="probed" conf="10"><cpe>cpe:/a:postfix:postfix</cpe></service><script id="smtp-commands" output="bee-box, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN"/><script id="ssl-date" output="2025-04-23T07:00:57+00:00; 0s from scanner time."><elem key="date">2025-04-23T07:00:57+00:00</elem>
+<elem key="delta">0.0</elem>
+</script><script id="sslv2" output="&#xa;  SSLv2 supported&#xa;  ciphers: &#xa;    SSL2_RC4_128_WITH_MD5&#xa;    SSL2_RC2_128_CBC_EXPORT40_WITH_MD5&#xa;    SSL2_RC4_128_EXPORT40_WITH_MD5&#xa;    SSL2_DES_64_CBC_WITH_MD5&#xa;    SSL2_RC2_128_CBC_WITH_MD5&#xa;    SSL2_DES_192_EDE3_CBC_WITH_MD5"><elem>SSLv2 supported</elem>
+<table key="ciphers">
+<elem>SSL2_RC4_128_WITH_MD5</elem>
+<elem>SSL2_RC2_128_CBC_EXPORT40_WITH_MD5</elem>
+<elem>SSL2_RC4_128_EXPORT40_WITH_MD5</elem>
+<elem>SSL2_DES_64_CBC_WITH_MD5</elem>
+<elem>SSL2_RC2_128_CBC_WITH_MD5</elem>
+<elem>SSL2_DES_192_EDE3_CBC_WITH_MD5</elem>
+</table>
+</script><script id="ssl-cert" output="Subject: commonName=ubuntu/organizationName=OCOSA/stateOrProvinceName=There is no such thing outside US/countryName=XX&#xa;Not valid before: 2013-03-28T19:14:17&#xa;Not valid after:  2013-04-27T19:14:17"><table key="subject">
+<elem key="commonName">ubuntu</elem>
+<elem key="countryName">XX</elem>
+<elem key="emailAddress">root@ubuntu</elem>
+<elem key="localityName">Everywhere</elem>
+<elem key="organizationName">OCOSA</elem>
+<elem key="organizationalUnitName">Office for Complication of Otherwise Simple Affairs</elem>
+<elem key="stateOrProvinceName">There is no such thing outside US</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">ubuntu</elem>
+<elem key="countryName">XX</elem>
+<elem key="emailAddress">root@ubuntu</elem>
+<elem key="localityName">Everywhere</elem>
+<elem key="organizationName">OCOSA</elem>
+<elem key="organizationalUnitName">Office for Complication of Otherwise Simple Affairs</elem>
+<elem key="stateOrProvinceName">There is no such thing outside US</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">1024</elem>
+<elem key="modulus">95E22B35F5A226E6D3C07EA02122A724F37393B81381813704EE186F6EAD01ADEEA39CD5407E92D5A8016CC31FC7689E435DB819A3EC6E04970D89C267F2E6908A448678905EDA03B7183B95C5BD1A36FCEC41C6E36727A69A5C41D5E3BE8A8659265536B6F577DCC0B2BE7A47BC0DAEFD2C9E14AA5A1A6842F70EE36E00C417</elem>
+<elem key="exponent">65537</elem>
+</table>
+<elem key="sig_algo">sha1WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2013-03-28T19:14:17</elem>
+<elem key="notAfter">2013-04-27T19:14:17</elem>
+</table>
+<elem key="md5">427ed025c79dcb42b22d387bf4353ced</elem>
+<elem key="sha1">d6415c57802841455b2f5bba38528be4a11c2c47</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIDCzCCAnQCCQDsljia970M0zANBgkqhkiG9w0BAQUFADCByTELMAkGA1UEBhMC&#xa;WFgxKjAoBgNVBAgTIVRoZXJlIGlzIG5vIHN1Y2ggdGhpbmcgb3V0c2lkZSBVUzET&#xa;MBEGA1UEBxMKRXZlcnl3aGVyZTEOMAwGA1UEChMFT0NPU0ExPDA6BgNVBAsTM09m&#xa;ZmljZSBmb3IgQ29tcGxpY2F0aW9uIG9mIE90aGVyd2lzZSBTaW1wbGUgQWZmYWly&#xa;czEPMA0GA1UEAxMGdWJ1bnR1MRowGAYJKoZIhvcNAQkBFgtyb290QHVidW50dTAe&#xa;Fw0xMzAzMjgxOTE0MTdaFw0xMzA0MjcxOTE0MTdaMIHJMQswCQYDVQQGEwJYWDEq&#xa;MCgGA1UECBMhVGhlcmUgaXMgbm8gc3VjaCB0aGluZyBvdXRzaWRlIFVTMRMwEQYD&#xa;VQQHEwpFdmVyeXdoZXJlMQ4wDAYDVQQKEwVPQ09TQTE8MDoGA1UECxMzT2ZmaWNl&#xa;IGZvciBDb21wbGljYXRpb24gb2YgT3RoZXJ3aXNlIFNpbXBsZSBBZmZhaXJzMQ8w&#xa;DQYDVQQDEwZ1YnVudHUxGjAYBgkqhkiG9w0BCQEWC3Jvb3RAdWJ1bnR1MIGfMA0G&#xa;CSqGSIb3DQEBAQUAA4GNADCBiQKBgQCV4is19aIm5tPAfqAhIqck83OTuBOBgTcE&#xa;7hhvbq0Bre6jnNVAfpLVqAFswx/HaJ5DXbgZo+xuBJcNicJn8uaQikSGeJBe2gO3&#xa;GDuVxb0aNvzsQcbjZyemmlxB1eO+ioZZJlU2tvV33MCyvnpHvA2u/SyeFKpaGmhC&#xa;9w7jbgDEFwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAC0Bzq8GUBIEYcldBMuaznEA&#xa;yFr/Pnnuj9Be5eKGdhFDs5vIlC6Odmw9VtHPKmg+P0f4vLhJjYpiP/gUK5CWtz6K&#xa;oQUj0NxWvcevYqEQliXesN44qSwJdf9Wv0WfMYMeXkTVe/oOS/xuWwKDPDDg24mz&#xa;4QZokiPp59Ok98OY5Jfi&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Apache httpd" version="2.2.8" extrainfo="(Ubuntu) DAV/2 mod_fastcgi/2.4.6 PHP/5.2.4-2ubuntu5 with Suhosin-Patch mod_ssl/2.2.8 OpenSSL/0.9.8g" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.2.8</cpe></service><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script><script id="http-server-header" output="Apache/2.2.8 (Ubuntu) DAV/2 mod_fastcgi/2.4.6 PHP/5.2.4-2ubuntu5 with Suhosin-Patch mod_ssl/2.2.8 OpenSSL/0.9.8g"><elem>Apache/2.2.8 (Ubuntu) DAV/2 mod_fastcgi/2.4.6 PHP/5.2.4-2ubuntu5 with Suhosin-Patch mod_ssl/2.2.8 OpenSSL/0.9.8g</elem>
+</script><script id="http-methods" output="&#xa;  Potentially risky methods: TRACE"><table key="Potentially risky methods">
+<elem>TRACE</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" product="Samba smbd" version="3.X - 4.X" extrainfo="workgroup: ITSECGAMES" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="Apache httpd" version="2.2.8" extrainfo="(Ubuntu) DAV/2 mod_fastcgi/2.4.6 PHP/5.2.4-2ubuntu5 with Suhosin-Patch mod_ssl/2.2.8 OpenSSL/0.9.8g" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.2.8</cpe></service><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script><script id="ssl-cert" output="Subject: commonName=bee-box.bwapp.local/organizationName=MME/stateOrProvinceName=Flanders/countryName=BE&#xa;Not valid before: 2013-04-14T18:11:32&#xa;Not valid after:  2018-04-13T18:11:32"><table key="subject">
+<elem key="commonName">bee-box.bwapp.local</elem>
+<elem key="countryName">BE</elem>
+<elem key="emailAddress">bwapp@itsecgames.com</elem>
+<elem key="localityName">Menen</elem>
+<elem key="organizationName">MME</elem>
+<elem key="organizationalUnitName">IT</elem>
+<elem key="stateOrProvinceName">Flanders</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">bee-box.bwapp.local</elem>
+<elem key="countryName">BE</elem>
+<elem key="emailAddress">bwapp@itsecgames.com</elem>
+<elem key="localityName">Menen</elem>
+<elem key="organizationName">MME</elem>
+<elem key="organizationalUnitName">IT</elem>
+<elem key="stateOrProvinceName">Flanders</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">1024</elem>
+<elem key="modulus">97E36A3959B2DE79DBFB42F5FBC14860A802ACBF63E84D30AE3611724E6A7CCBEA28F1F6A5376A177610249CCE28FC46B35983027E67F867037B244950D4B5E8099BED41F5829CAADD54264FBB07CA64E3AE31F4DD9176C7D00F77E6C8C38FBDAB9F1AE12CAB5776EA445077025756B630962F364B9555E7B66391BB06E6F411</elem>
+<elem key="exponent">65537</elem>
+</table>
+<elem key="sig_algo">sha1WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2013-04-14T18:11:32</elem>
+<elem key="notAfter">2018-04-13T18:11:32</elem>
+</table>
+<elem key="md5">fbeb479a224350013c7918f74ec96fdb</elem>
+<elem key="sha1">ae5fb7be864a78e168318fc1c96a4bd242c4e6c3</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIClTCCAf4CCQDYvSVKsVyfWzANBgkqhkiG9w0BAQUFADCBjjELMAkGA1UEBhMC&#xa;QkUxETAPBgNVBAgTCEZsYW5kZXJzMQ4wDAYDVQQHEwVNZW5lbjEMMAoGA1UEChMD&#xa;TU1FMQswCQYDVQQLEwJJVDEcMBoGA1UEAxMTYmVlLWJveC5id2FwcC5sb2NhbDEj&#xa;MCEGCSqGSIb3DQEJARYUYndhcHBAaXRzZWNnYW1lcy5jb20wHhcNMTMwNDE0MTgx&#xa;MTMyWhcNMTgwNDEzMTgxMTMyWjCBjjELMAkGA1UEBhMCQkUxETAPBgNVBAgTCEZs&#xa;YW5kZXJzMQ4wDAYDVQQHEwVNZW5lbjEMMAoGA1UEChMDTU1FMQswCQYDVQQLEwJJ&#xa;VDEcMBoGA1UEAxMTYmVlLWJveC5id2FwcC5sb2NhbDEjMCEGCSqGSIb3DQEJARYU&#xa;YndhcHBAaXRzZWNnYW1lcy5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGB&#xa;AJfjajlZst552/tC9fvBSGCoAqy/Y+hNMK42EXJOanzL6ijx9qU3ahd2ECSczij8&#xa;RrNZgwJ+Z/hnA3skSVDUtegJm+1B9YKcqt1UJk+7B8pk464x9N2RdsfQD3fmyMOP&#xa;vaufGuEsq1d26kRQdwJXVrYwli82S5VV57ZjkbsG5vQRAgMBAAEwDQYJKoZIhvcN&#xa;AQEFBQADgYEAd+DlGErtouGz0qCAjStyvMDi2i5D1LOuFzHDSsu2tbkALSzbrol2&#xa;lHYGi6hlywZD6wFwVOxsUgjzmlUUowBxmLD+Cam+Df5Xm/yNWqHvmahUQ6VSISYF&#xa;o2i69SuuTghhwqwQ/uiMEUEwPXO20wN0dOq2z8+nG7xDL4eM5AWAbO4=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="sslv2" output="&#xa;  SSLv2 supported&#xa;  ciphers: &#xa;    SSL2_RC4_128_WITH_MD5&#xa;    SSL2_RC2_128_CBC_EXPORT40_WITH_MD5&#xa;    SSL2_RC4_128_EXPORT40_WITH_MD5&#xa;    SSL2_DES_64_CBC_WITH_MD5&#xa;    SSL2_RC2_128_CBC_WITH_MD5&#xa;    SSL2_DES_192_EDE3_CBC_WITH_MD5"><elem>SSLv2 supported</elem>
+<table key="ciphers">
+<elem>SSL2_RC4_128_WITH_MD5</elem>
+<elem>SSL2_RC2_128_CBC_EXPORT40_WITH_MD5</elem>
+<elem>SSL2_RC4_128_EXPORT40_WITH_MD5</elem>
+<elem>SSL2_DES_64_CBC_WITH_MD5</elem>
+<elem>SSL2_RC2_128_CBC_WITH_MD5</elem>
+<elem>SSL2_DES_192_EDE3_CBC_WITH_MD5</elem>
+</table>
+</script><script id="http-methods" output="&#xa;  Potentially risky methods: TRACE"><table key="Potentially risky methods">
+<elem>TRACE</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.2.8 (Ubuntu) DAV/2 mod_fastcgi/2.4.6 PHP/5.2.4-2ubuntu5 with Suhosin-Patch mod_ssl/2.2.8 OpenSSL/0.9.8g"><elem>Apache/2.2.8 (Ubuntu) DAV/2 mod_fastcgi/2.4.6 PHP/5.2.4-2ubuntu5 with Suhosin-Patch mod_ssl/2.2.8 OpenSSL/0.9.8g</elem>
+</script><script id="ssl-date" output="2025-04-23T07:00:57+00:00; 0s from scanner time."><elem key="date">2025-04-23T07:00:57+00:00</elem>
+<elem key="delta">0.0</elem>
+</script></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" product="Samba smbd" version="3.0.28a" extrainfo="workgroup: ITSECGAMES" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
+<port protocol="tcp" portid="512"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="exec" method="table" conf="3"/></port>
+<port protocol="tcp" portid="513"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="login" method="table" conf="3"/></port>
+<port protocol="tcp" portid="514"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="666"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="doom" servicefp="SF-Port666-TCP:V=7.95%I=7%D=4/23%Time=68088FEB%P=x86_64-pc-linux-gnu%r(GenericLines,400,&quot;\*\*\*\x20bWAPP\x20Movie\x20Service\x20\*\*\*\nMatching\x20movies:\x200\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0&quot;)%r(beast2,400,&quot;\*\*\*\x20bWAPP\x20Movie\x20Service\x20\*\*\*\nMatching\x20movies:\x200\n\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0&quot;);" method="table" conf="3"/><script id="fingerprint-strings" output="&#xa;  GenericLines, beast2: &#xa;    *** bWAPP Movie Service ***&#xa;    Matching movies: 0"><elem key="GenericLines, beast2">&#xa;    *** bWAPP Movie Service ***&#xa;    Matching movies: 0</elem>
+</script></port>
+<port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="mysql" product="MySQL" version="5.0.96-0ubuntu3" method="probed" conf="10"><cpe>cpe:/a:mysql:mysql:5.0.96-0ubuntu3</cpe></service><script id="mysql-info" output="&#xa;  Protocol: 10&#xa;  Version: 5.0.96-0ubuntu3&#xa;  Thread ID: 39&#xa;  Capabilities flags: 41516&#xa;  Some Capabilities: Support41Auth, SupportsTransactions, LongColumnFlag, Speaks41ProtocolNew, SupportsCompression, ConnectWithDatabase&#xa;  Status: Autocommit&#xa;  Salt: h^{qD@Uk:{&quot;2soR/0DDj"><elem key="Protocol">10</elem>
+<elem key="Version">5.0.96-0ubuntu3</elem>
+<elem key="Thread ID">39</elem>
+<elem key="Capabilities flags">41516</elem>
+<table key="Some Capabilities">
+<elem>Support41Auth</elem>
+<elem>SupportsTransactions</elem>
+<elem>LongColumnFlag</elem>
+<elem>Speaks41ProtocolNew</elem>
+<elem>SupportsCompression</elem>
+<elem>ConnectWithDatabase</elem>
+</table>
+<elem key="Status">Autocommit</elem>
+<elem key="Salt">h^{qD@Uk:{&quot;2soR/0DDj</elem>
+</script></port>
+<port protocol="tcp" portid="5901"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="vnc" product="VNC" extrainfo="protocol 3.8" method="probed" conf="10"/><script id="vnc-info" output="&#xa;  Protocol version: 3.8&#xa;  Security types: &#xa;    VNC Authentication (2)"><elem key="Protocol version">3.8</elem>
+<table key="Security types">
+<table>
+<elem key="name">VNC Authentication</elem>
+<elem key="type">2</elem>
+</table>
+</table>
+</script></port>
+<port protocol="tcp" portid="6001"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="X11" extrainfo="access denied" ostype="Unix" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="8080"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="nginx" version="1.4.0" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.4.0</cpe></service><script id="http-open-proxy" output="Proxy might be redirecting requests"/><script id="http-server-header" output="nginx/1.4.0"><elem>nginx/1.4.0</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script></port>
+<port protocol="tcp" portid="8443"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="nginx" version="1.4.0" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.4.0</cpe></service><script id="ssl-date" output="2025-04-23T07:00:57+00:00; 0s from scanner time."><elem key="date">2025-04-23T07:00:57+00:00</elem>
+<elem key="delta">0.0</elem>
+</script><script id="tls-nextprotoneg" output="&#xa;  http/1.1"><elem>http/1.1</elem>
+</script><script id="http-server-header" output="nginx/1.4.0"><elem>nginx/1.4.0</elem>
+</script><script id="ssl-cert" output="Subject: commonName=bee-box.bwapp.local/organizationName=MME/stateOrProvinceName=Flanders/countryName=BE&#xa;Not valid before: 2013-04-14T18:11:32&#xa;Not valid after:  2018-04-13T18:11:32"><table key="subject">
+<elem key="commonName">bee-box.bwapp.local</elem>
+<elem key="countryName">BE</elem>
+<elem key="emailAddress">bwapp@itsecgames.com</elem>
+<elem key="localityName">Menen</elem>
+<elem key="organizationName">MME</elem>
+<elem key="organizationalUnitName">IT</elem>
+<elem key="stateOrProvinceName">Flanders</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">bee-box.bwapp.local</elem>
+<elem key="countryName">BE</elem>
+<elem key="emailAddress">bwapp@itsecgames.com</elem>
+<elem key="localityName">Menen</elem>
+<elem key="organizationName">MME</elem>
+<elem key="organizationalUnitName">IT</elem>
+<elem key="stateOrProvinceName">Flanders</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">1024</elem>
+<elem key="modulus">97E36A3959B2DE79DBFB42F5FBC14860A802ACBF63E84D30AE3611724E6A7CCBEA28F1F6A5376A177610249CCE28FC46B35983027E67F867037B244950D4B5E8099BED41F5829CAADD54264FBB07CA64E3AE31F4DD9176C7D00F77E6C8C38FBDAB9F1AE12CAB5776EA445077025756B630962F364B9555E7B66391BB06E6F411</elem>
+<elem key="exponent">65537</elem>
+</table>
+<elem key="sig_algo">sha1WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2013-04-14T18:11:32</elem>
+<elem key="notAfter">2018-04-13T18:11:32</elem>
+</table>
+<elem key="md5">fbeb479a224350013c7918f74ec96fdb</elem>
+<elem key="sha1">ae5fb7be864a78e168318fc1c96a4bd242c4e6c3</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIClTCCAf4CCQDYvSVKsVyfWzANBgkqhkiG9w0BAQUFADCBjjELMAkGA1UEBhMC&#xa;QkUxETAPBgNVBAgTCEZsYW5kZXJzMQ4wDAYDVQQHEwVNZW5lbjEMMAoGA1UEChMD&#xa;TU1FMQswCQYDVQQLEwJJVDEcMBoGA1UEAxMTYmVlLWJveC5id2FwcC5sb2NhbDEj&#xa;MCEGCSqGSIb3DQEJARYUYndhcHBAaXRzZWNnYW1lcy5jb20wHhcNMTMwNDE0MTgx&#xa;MTMyWhcNMTgwNDEzMTgxMTMyWjCBjjELMAkGA1UEBhMCQkUxETAPBgNVBAgTCEZs&#xa;YW5kZXJzMQ4wDAYDVQQHEwVNZW5lbjEMMAoGA1UEChMDTU1FMQswCQYDVQQLEwJJ&#xa;VDEcMBoGA1UEAxMTYmVlLWJveC5id2FwcC5sb2NhbDEjMCEGCSqGSIb3DQEJARYU&#xa;YndhcHBAaXRzZWNnYW1lcy5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGB&#xa;AJfjajlZst552/tC9fvBSGCoAqy/Y+hNMK42EXJOanzL6ijx9qU3ahd2ECSczij8&#xa;RrNZgwJ+Z/hnA3skSVDUtegJm+1B9YKcqt1UJk+7B8pk464x9N2RdsfQD3fmyMOP&#xa;vaufGuEsq1d26kRQdwJXVrYwli82S5VV57ZjkbsG5vQRAgMBAAEwDQYJKoZIhvcN&#xa;AQEFBQADgYEAd+DlGErtouGz0qCAjStyvMDi2i5D1LOuFzHDSsu2tbkALSzbrol2&#xa;lHYGi6hlywZD6wFwVOxsUgjzmlUUowBxmLD+Cam+Df5Xm/yNWqHvmahUQ6VSISYF&#xa;o2i69SuuTghhwqwQ/uiMEUEwPXO20wN0dOq2z8+nG7xDL4eM5AWAbO4=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script></port>
+<port protocol="tcp" portid="9080"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" product="lighttpd" version="1.4.19" method="probed" conf="10"><cpe>cpe:/a:lighttpd:lighttpd:1.4.19</cpe></service><script id="http-server-header" output="lighttpd/1.4.19"><elem>lighttpd/1.4.19</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script></port>
+</ports>
+<hostscript><script id="clock-skew" output="mean: -23m59s, deviation: 53m39s, median: 0s"><elem key="count">5</elem>
+<elem key="median">0</elem>
+<elem key="stddev">3219</elem>
+<elem key="mean">-1439</elem>
+</script><script id="smb-os-discovery" output="&#xa;  OS: Unix (Samba 3.0.28a)&#xa;  Computer name: bee-box&#xa;  NetBIOS computer name: &#xa;  Domain name: &#xa;  FQDN: bee-box&#xa;  System time: 2025-04-23T09:00:53+02:00&#xa;"><elem key="os">Unix</elem>
+<elem key="lanmanager">Samba 3.0.28a</elem>
+<elem key="server"></elem>
+<elem key="date">2025-04-23T09:00:53+02:00</elem>
+<elem key="fqdn">bee-box</elem>
+<elem key="domain_dns"></elem>
+<elem key="workgroup">ITSECGAMES\x00</elem>
+</script><script id="smb2-time" output="Protocol negotiation failed (SMB2)"/><script id="smb-security-mode" output="&#xa;  account_used: guest&#xa;  authentication_level: user&#xa;  challenge_response: supported&#xa;  message_signing: disabled (dangerous, but default)"><elem key="account_used">guest</elem>
+<elem key="authentication_level">user</elem>
+<elem key="challenge_response">supported</elem>
+<elem key="message_signing">disabled</elem>
+</script><script id="nbstat" output="NetBIOS name: BEE-BOX, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: &lt;unknown&gt; (unknown)"/></hostscript><times srtt="14717" rttvar="2923" to="100000"/>
+</host>
+<runstats><finished time="1745391657" timestr="Wed Apr 23 03:00:57 2025" summary="Nmap done at Wed Apr 23 03:00:57 2025; 1 IP address (1 host up) scanned in 70.67 seconds" elapsed="70.67" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
